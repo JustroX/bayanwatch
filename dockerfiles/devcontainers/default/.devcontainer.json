@@ -1,0 +1,9 @@
+{
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "forwardPorts": [3000, 4200, 27017, 5900],
+  "features": {},
+  "overrideCommand": false,
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/workspace"
+}
