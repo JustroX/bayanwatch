@@ -1,3 +1,4 @@
+import json
 import os
 from newsplease import NewsPlease
 from dotenv import load_dotenv
@@ -13,4 +14,4 @@ request_args = {
 
 for line in iter(input, ''):
     article = NewsPlease.from_url(line, request_args=request_args)
-    print(article.get_serializable_dict())
+    print(json.dumps(article.get_serializable_dict()))
