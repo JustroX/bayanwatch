@@ -1,0 +1,16 @@
+{
+  "name": "ghost",
+  "version": "1.0.0",
+  "description": "Deploy Ghost Dockerfile",
+  "author": "justrox",
+  "license": "MIT",
+  "dependencies": {
+    "ghost-storage-adapter-s3": "latest",
+    "casper": "github:TryGhost/Casper#main",
+    "lyra": "github:TryGhost/lyra#main",
+    "headline": "github:TryGhost/headline#main",
+    "ruby": "github:TryGhost/ruby#main",
+    "ease": "github:TryGhost/ease#main",
+    "wave": "github:TryGhost/wave#main"
+  }
+}
