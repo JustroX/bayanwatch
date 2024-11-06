@@ -4,7 +4,7 @@ RUN mv content.orig/* content/
 # We install git so we can pull ghost themes 
 # and adapters via npm
 RUN apt-get update && apt-get install -y git
-COPY apps/budget-kanban/ghost/src/package.json package.json
+COPY dockerfiles/infrastructure/blog/package.json package.json
 RUN npm install --omit=dev
 
 # Run scripts to add adapters, themes, and patches
